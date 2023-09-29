@@ -10,4 +10,4 @@
 #SBATCH --cpus-per-task=1
 
 mpic++ tarea2_read_matrix.cpp  -std=c++11
-mpirun a.out
+time mpirun a.out
