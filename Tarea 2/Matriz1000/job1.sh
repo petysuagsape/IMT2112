@@ -3,7 +3,7 @@
 #SBATCH --partition=full
 
 #SBATCH --job-name=IMT2112
-#SBATCH --output=log.out
+#SBATCH --output=log1.out
 
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
